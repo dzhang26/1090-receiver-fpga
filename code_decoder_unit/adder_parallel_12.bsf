@@ -1,0 +1,130 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 272 200)
+	(text "adder_parallel_12" (rect 86 0 205 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 184 25 196)(font "Arial" ))
+	(port
+		(pt 0 24)
+		(input)
+		(text "data7x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data7x[11..0]" (rect 4 11 66 24)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 126 24)(line_width 3))
+	)
+	(port
+		(pt 0 40)
+		(input)
+		(text "data6x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data6x[11..0]" (rect 4 27 66 40)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 126 40)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "data5x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data5x[11..0]" (rect 4 43 66 56)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 126 56)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "data4x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data4x[11..0]" (rect 4 59 66 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 126 72)(line_width 3))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "data3x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data3x[11..0]" (rect 4 75 66 88)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 126 88)(line_width 3))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "data2x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data2x[11..0]" (rect 4 91 66 104)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 126 104)(line_width 3))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "data1x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data1x[11..0]" (rect 4 107 66 120)(font "Arial" (font_size 8)))
+		(line (pt 0 120)(pt 126 120)(line_width 3))
+	)
+	(port
+		(pt 0 136)
+		(input)
+		(text "data0x[11..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "data0x[11..0]" (rect 4 123 66 136)(font "Arial" (font_size 8)))
+		(line (pt 0 136)(pt 126 136)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 4 147 27 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 32 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "aclr" (rect 0 0 21 14)(font "Arial" (font_size 8)))
+		(text "aclr" (rect 4 163 21 176)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 32 176)(line_width 1))
+	)
+	(port
+		(pt 272 80)
+		(output)
+		(text "result[13..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "result[13..0]" (rect 212 67 267 80)(font "Arial" (font_size 8)))
+		(line (pt 272 80)(pt 181 80)(line_width 3))
+	)
+	(drawing
+		(text "+" (rect 117 9 125 25)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 25 125 41)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 41 125 57)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 57 125 73)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 73 125 89)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 89 125 105)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 105 125 121)(font "Arial" (font_size 10)))
+		(text "+" (rect 117 121 125 137)(font "Arial" (font_size 10)))
+		(text "LATENCY=3" (rect 213 181 266 193)(font "Arial" ))
+		(text "Input signed" (rect 214 170 265 182)(font "Arial" ))
+		(line (pt 162 80)(pt 172 80)(line_width 1))
+		(line (pt 162 80)(pt 162 90)(line_width 1))
+		(line (pt 162 80)(pt 152 80)(line_width 1))
+		(line (pt 162 80)(pt 162 70)(line_width 1))
+		(line (pt 126 72)(pt 143 74)(line_width 1))
+		(line (pt 126 88)(pt 143 86)(line_width 1))
+		(line (pt 126 24)(pt 126 56)(line_width 1))
+		(line (pt 126 56)(pt 151 64)(line_width 1))
+		(line (pt 126 104)(pt 151 96)(line_width 1))
+		(line (pt 126 136)(pt 126 104)(line_width 1))
+		(line (pt 0 0)(pt 273 0)(line_width 1))
+		(line (pt 273 0)(pt 273 201)(line_width 1))
+		(line (pt 0 201)(pt 273 201)(line_width 1))
+		(line (pt 0 0)(pt 0 201)(line_width 1))
+		(circle (rect 142 60 182 100)(line_width 1))
+	)
+)
