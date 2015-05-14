@@ -1,9 +1,0 @@
-# Ignore list for Altera Quartus II
-
-db/
-incremental_db/
-
-*.pof
-*.sof
-#*.s#?
-#*.cmp

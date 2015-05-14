@@ -1,7 +1,0 @@
-set_global_assignment -name IP_TOOL_NAME "LPM_FF"
-set_global_assignment -name IP_TOOL_VERSION "9.1"
-set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "reg_24.vhd"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "reg_24.bsf"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "reg_24_inst.vhd"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "reg_24.inc"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "reg_24.cmp"]

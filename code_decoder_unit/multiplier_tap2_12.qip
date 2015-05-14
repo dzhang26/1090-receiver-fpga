@@ -1,5 +1,0 @@
-set_global_assignment -name IP_TOOL_NAME "LPM_MULT"
-set_global_assignment -name IP_TOOL_VERSION "9.1"
-set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "multiplier_tap2_12.vhd"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "multiplier_tap2_12.bsf"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "multiplier_tap2_12.cmp"]
